@@ -26,9 +26,9 @@ def text_to_speech(text):
         return tmp_file.name
 
 # Set page configuration
-st.set_page_config(page_title="AI-Powered Medical Diagnostics Assistant & Detection.",
+st.set_page_config(page_title="OutBox AI",
                    layout="wide",
-                   page_icon="🧑‍⚕️")
+                   page_icon="🩺")
 
 # Loading the saved models
 working_dir = os.path.dirname(os.path.abspath(__file__))
