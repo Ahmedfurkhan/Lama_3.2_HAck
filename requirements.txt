@@ -1,6 +1,6 @@
 streamlit==1.22.0
 streamlit-option-menu==0.3.2
-groq==0.4.3
+groq
 python-dotenv==0.19.2
 Pillow==9.3.0
 gTTS==2.3.1
