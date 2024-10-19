@@ -38,7 +38,7 @@ parkinsons_model = pickle.load(open(f'{working_dir}/saved_models/parkinsons_mode
 
 # Sidebar for navigation
 with st.sidebar:
-    selected = option_menu('AI-Powered Medical Diagnostics Assistant & Detection',
+    selected = option_menu('OutBox AI',
                             ['Home',
                              'AI Medical Assistant',
                              'Diabetes Prediction',
